@@ -14,7 +14,7 @@
 		<property name="pname" value="babioon" />	
 		<property name="projectname" value="babioon-library" />
 		<phingcall target="symboliclink">
-			<property name="source" value="${packagedir}/${projectname}/code/site/libraries/${pname}" />
+			<property name="source" value="${packagedir}/${projectname}/code/libraries/${pname}" />
 			<property name="target" value="${targetdir}/libraries/${pname}" />
 		</phingcall>
 
