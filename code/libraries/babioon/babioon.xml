@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<extension type="library" version="2.5" method="upgrade">
+<extension type="library" version="3.0" method="upgrade">
 	<name>BABIOON_LIBRARY</name>
 	<libraryname>babioon</libraryname>
 	<description>BABIOON_LIBRARY_XML_DESCRIPTION</description>
@@ -8,31 +8,15 @@
 	<license>GNU General Public License version 3</license>
 	<authorEmail>contact@babioon.com</authorEmail>
 	<authorUrl>www.babioon.com</authorUrl>
-	<version>2.0.0</version>
-	<files>
-		<folder>application</folder>
-		<folder>config</folder>
-		<folder>controller</folder>
-		<folder>date</folder>
-		<folder>error</folder>
-		<folder>factory</folder>
-		<folder>googlemaps</folder>
-		<folder>html</folder>
-		<folder>loader</folder>
-		<folder>menu</folder>
-		<folder>model</folder>
-		<folder>pagination</folder>
-		<folder>parameter</folder>
-		<folder>registry</folder>
-		<folder>request</folder>
-		<folder>table</folder>
-		<folder>text</folder>
-		<folder>toolbar</folder>
-		<folder>toolbarhelper</folder>
-		<folder>utilities</folder>
-		<folder>utility</folder>
-		<folder>view</folder>
-		<file>babioon.php</file>
-		<file>babioon.xml</file>
-	</files>
+	<version>3.0.0</version>
+    <files>
+        <folder>Babioon</folder>
+        <folder>form</folder>
+        <filename>LICENSE</filename>
+        <filename>library.php</filename>
+    </files>
+
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.lib_babioon.ini</language>
+    </languages>
 </extension>
