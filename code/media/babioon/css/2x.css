@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+.fof-row  {width: 100%;display:block;margin-top: 15px}
+.fof-row label {width:200px;}
+.fof-row input {}
+.fof-row textarea {}
+.fof-row select {}
+.fof-row span.mceEditor {display:block;float: none;clear: both;}
+.fof-row .toggle-editor {padding: 10px 0 20px 0;}
+.fof-row fieldset {border: 0 solid #fff;float:left;}
+.fof-row fieldset.radio {}
+.fof-row fieldset.radio label {width:auto;clear: none;}
+.fof-row fieldset.radio input {clear: left}
+
+.babioonlogo {background-image: url('../images/logo-babioon-transparent.png'); background-repeat: no-repeat; background-position: right; height: 100px; }
+.componentname {height: 60px}
+.componentname img {vertical-align: top;}
+.componentname p {padding-top:10px;font-size:2em;line-height:1.2em;margin-left:10px;display:inline-block;}
+.icon-48-babioonevent {background-image: url(../images/icon-48-babioonevent.png);}
